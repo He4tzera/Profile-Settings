@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Heebo', sans-serif;
+}
+
+body{
+    width: 1366px;
+    height: 768px;
+    background-color: #935FD3;
+}
+
+#container{
+    display: flex;
+    width: 375px;
+    height: 584px;
+    background-color: #FDFCFE;
+    margin-top: 72px;
+    margin-left: 496px;
+    padding: 24px 24px 16px;
+    flex-direction: column;
+    border-radius: 12px;
+    gap: 24px;
+}
+
+#user{
+    display: flex;
+    flex-direction: row;
+    width: 327px;
+    height: 48px;
+    gap: 16px;
+    align-items: center;
+}
+
+#avatar{
+    display: block;
+    height: 48px;
+    width: 48px;
+    background-image: url(assets/avatar.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+
+}
+
+#info{
+    width: 263px;
+    height: 46px;
+    margin-left: 64px;
+}
+
+#info h1{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #38343D;
+}
+
+#info a{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #686071;
+}
+
+#options{
+    width: 327px;
+    height: 472px;
+    gap: 16px;
+}
+
+#divisor{
+    width: 327px;
+    height: 0px;
+    border: 1px solid #F4EFFA;
+    margin: 0 auto;
+}
+
+#account
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 12px;
+
+    width: 327px;
+    height: 96px;
+    
+    margin-top: 16px;
+    border:solid red 1px;
+}
+#account h1{
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+#account ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0px;
+    width: 327px;
+    height: 72px;
+
+}
+
+#dadoPessoais{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    padding: 8px 0px;
+    gap: 8px;
+
+    width: 327px;
+    height: 36px;
+
+}
+
+#dadosPessoais a{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#dadosPessoais img{
+    width: 20px;
+    height: 20px;
+}
+
+#infoLogin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px 0px;
+    gap: 8px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#infoLogin img{
+    width: 20px;
+    height: 20px;
+
+}
